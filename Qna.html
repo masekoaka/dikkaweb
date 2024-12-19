@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>QnA</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('Button/button (1).png','home 2.png','profile 2.png','portofolio 2.png','ask me 2.png','instagram 2.png','twitter 2.png')">
+<table width="100%" border="0">
+  <tbody>
+    <tr bgcolor="#1E201E">
+      <td height="110" bgcolor="#000000"><table width="100%" border="0">
+        <tbody style="color: #FFFFFF; font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; font-size: 16px; font-style: normal; font-weight: bold; text-align: center;">
+          <tr bgcolor="#7C00FE" style="text-align: center">
+            <td width="40%" bgcolor="#000000" style="text-align: center"><img src="initial-letter-logo-da-260nw-1027533292.jpg" width="75" height="71" alt=""/></td>
+            <td width="15%" bgcolor="#000000" style="text-align: center"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home_button','','home 2.png',1)"><img src="home 1.png" alt="" width="105" height="49" id="home_button"></a></td>
+            <td width="15%" bgcolor="#000000"><a href="Profile.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Profile_Button','','profile 2.png',1)"><img src="profile 1.png" alt="" width="112" height="49" id="Profile_Button"></a></td>
+            <td width="15%" bgcolor="#000000"><a href="Portofolio.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Portofolio_Button','','portofolio 2.png',1)"><img src="portofolio 1.png" alt="" width="144" height="49" id="Portofolio_Button"></a></td>
+            <td width="15%" bgcolor="#000000"><a href="Ask Me.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('AskMe_Button','','ask me 2.png',1)"><img src="ask me 1.png" alt="" width="126" height="49" id="AskMe_Button"></a></td>
+          </tr>
+        </tbody>
+      </table></td>
+    </tr>
+    <tr style="text-align: center; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif; font-size: 24px; color: #00FF30;">
+      <td height="40"><table width="100%" height="798" border="0">
+        <tbody>
+          <tr style="text-align: left">
+            <td width="39%" rowspan="6" bgcolor="#FFFFFF"><iframe></iframe>&nbsp;</td>
+            <td height="296" colspan="3" bgcolor="#FFFFFF">&nbsp;</td>
+            </tr>
+          <tr style="text-align: left">
+            <td width="14%" height="67" bgcolor="#FFFFFF">Nama</td>
+            <td width="1%" bgcolor="#FFFFFF">: </td>
+            <td width="46%" bgcolor="#FFFFFF"><input name="Nama" type="text" required="required" id="Nama" placeholder="Ketikkan Nama" pattern=" " size="50"></td>
+          </tr>
+          <tr style="text-align: left">
+            <td bgcolor="#FFFFFF" style="text-align: left; font-size: 24px;">Nomor Whatsapp</td>
+            <td bgcolor="#FFFFFF" style="text-align: left">:</td>
+            <td height="88" bgcolor="#FFFFFF"><input name="Nomor Whatsapp" type="text" required="required" id="Nomor Whatsapp" placeholder="+62...." size="50"></td>
+          </tr>
+          <tr style="text-align: left">
+            <td bgcolor="#FFFFFF" style="text-align: left; font-size: 24px;">E-mail</td>
+            <td bgcolor="#FFFFFF" style="text-align: left">:</td>
+            <td height="80" bgcolor="#FFFFFF"><input name="E-mail" type="text" required="required" id="E-mail" placeholder="ketikkanemail@gmail.com" size="50"></td>
+          </tr>
+          <tr style="text-align: left">
+            <td height="199" bgcolor="#FFFFFF" style="text-align: left; font-size: 24px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">Pesan</td>
+            <td bgcolor="#FFFFFF" style="text-align: left">:</td>
+            <td bgcolor="#FFFFFF"><textarea name="Pesan" cols="50" rows="5" required="required" id="Pesan" placeholder="Ketikkan Pesan &amp; Kesan"></textarea></td>
+          </tr>
+          <tr style="text-align: left">
+            <td height="54" bgcolor="#FFFFFF" style="text-align: left; font-size: 24px; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;">&nbsp;</td>
+            <td bgcolor="#FFFFFF" style="text-align: left">&nbsp;</td>
+            <td bgcolor="#FFFFFF"><p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Submit','','Button/button (1).png',1)"><img src="Button/button.png" alt="" width="141" height="50" id="Submit"></a></p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p></td>
+            </tr>
+          </tbody>
+      </table>
+        <table width="100%" border="0">
+          <tbody>
+            <tr>
+              <td width="18%"><img src="pngfind.com-tumblr-stickers-png-372035.png" width="315" height="124" alt=""/></td>
+              <td width="17%" height="241" style="text-align: center"><a href="https://www.instagram.com/dikkaagung/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Instagram Button','','instagram 2.png',1)"><img src="instagram 1.png" alt="" width="171" height="42" id="Instagram Button"></a></td>
+              <td width="12%" style="text-align: center"><p><img src="WhatsApp Image 2024-10-09 at 20.45.13.jpeg" width="108" height="203" alt=""/></p></td>
+              <td width="8%" style="text-align: center"><img src="—Pngtree—connection vector icon_5282822.png" width="90" height="90" alt=""/></td>
+              <td width="12%" style="text-align: center"><img src="WhatsApp Image 2024-10-09 at 20.49.31.jpeg" width="108" height="203" alt=""/></td>
+              <td width="17%" style="text-align: center"><a href="https://x.com/Amadikkatu" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Twitter_Button','','twitter 2.png',1)"><img src="twitter 1.png" alt="" width="140" height="42" id="Twitter_Button"></a></td>
+              <td width="18%"><img src="pngfind.com-tumblr-stickers-png-372035 - Copy.png" width="318" height="126" alt=""/></td>
+            </tr>
+          </tbody>
+      </table></td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
